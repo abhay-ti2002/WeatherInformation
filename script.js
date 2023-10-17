@@ -43,22 +43,22 @@ async function checkWether(query) {
 //     --------------------Change images according to weather------------
        
          if (data.weather[0].main === "Clear") {
-                document.querySelector("#weatherimg").src = "./images/clear.png";
+                document.querySelector("#weatherimg").src = "./clear.png";
         }
         else if (data.weather[0].main === "Clouds") {
-                document.querySelector("#weatherimg").src = "./images/clouds.png";
+                document.querySelector("#weatherimg").src = "./clouds.png";
         }
         else if (data.weather[0].main === "Haze") {
-                document.querySelector("#weatherimg").src = "./images/drizzle.png";
+                document.querySelector("#weatherimg").src = "./drizzle.png";
         }
         else if (data.weather[0].main === "Rain") {
-                document.querySelector("#weatherimg").src = "./images/rain.png";
+                document.querySelector("#weatherimg").src = "./rain.png";
         }
         else if (data.weather[0].main === "Mist") {
-                document.querySelector("#weatherimg").src = "./images/mist.png";
+                document.querySelector("#weatherimg").src = "./mist.png";
         }
         else if (data.weather[0].main === "Snow") {
-                document.querySelector("#weatherimg").src = "./images/snow.png";
+                document.querySelector("#weatherimg").src = "./snow.png";
         }
        
 }
