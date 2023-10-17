@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+     <link type="text/css" rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/11bcd8d849.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: black; color:#fff;">
+  <div id="wrapper">
+    <div id="weatherDetails">
+        <div id="search">
+            <input id="searchcity" type="text" placeholder="City Name">
+            <button id="searchbtn" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div id="cloudimg">
+            <img id="weatherimg" src="./images/clear.png" alt="image">
+            <h1 class="temp">22°C</h1>
+        </div>
+        <p id="cityName">New York</p>
+    </div>
+        <div id="footer">
+            <!-- <p id="cityName">New York</p> -->
+             <div>
+                <img src="./images/humidity.png" alt="image">
+                <span id="humidityinper">50%</span>
+                <p id="humidity">Humidity</p>
+             </div>
+             <div>
+                <img src="./images/wind.png" alt="image">
+                <span id="windspeed">15km/h</span>
+                <p id="wind">Wind Speed</p>
+             </div>
+        </div>
+    </div>
+        <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

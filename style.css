@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&family=Shadows+Into+Light&display=swap');
+body{
+    
+    background-image: url(./weatherbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#wrapper{
+    box-sizing: content-box;
+    padding-top: 10px;
+    /* border:1px red solid; */
+    width:500px;
+    text-align: center;  
+    background-color: #03001cc4;
+     /* -webkit-backdrop-filter: blur(5px); */
+     backdrop-filter: blur(8px);
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     border-radius: 6px; 
+ 
+}
+button{
+    /* border: 1px solid black; */
+    
+    background-color: #fff;
+    color:black;
+    padding:10px 10px;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+}
+button:hover{
+    box-shadow: 1px 1px 10px 1px #baa1bf;
+}
+input[type="text"]{
+        height:40px;
+        width:250px;
+        box-sizing: border-box;
+        border-radius: 9px;
+        font-size:20px;
+}
+input[type="text"]:hover{
+    box-shadow: 5px 5px 10px 1px #baa1bf;
+}
+input::placeholder{
+      font-size: 20px;
+      text-align: center;
+}
+input{
+  outline: none;
+}
+.temp{
+      font-family: 'Roboto', sans-serif;      
+      font-size: 60px;
+}  
+#cityName{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 42px;    
+}
+#footer{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+#humidityinper{
+     font-family: 'Roboto', sans-serif; 
+     font-size:30px;
+     position:relative;
+     bottom: 45px;
+}
+#humidity{
+    font-family: 'Roboto', sans-serif; 
+    position: relative;
+    left: 46px;
+    bottom: 45px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+#windspeed{
+     font-family: 'Roboto', sans-serif; 
+     font-size:30px;
+     position:relative;
+     bottom: 45px; 
+}
+#wind{
+    font-family: 'Roboto', sans-serif; 
+    position: relative;
+    left: 46px;
+    bottom: 45px;
+    font-size: 18px;
+    /* padding-left: 0px; */
+}
